@@ -1,0 +1,645 @@
+body{
+	font-family: 'Lato', sans-serif;
+	font-family: 'Source Code Pro', monospace;
+	
+}
+a{
+	text-align: ;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+	width: 100%;
+	height: 100%;
+}
+
+p {
+	text-align: left;
+	padding-top: 20px;
+}
+
+i {
+	font-style: italic; color: red
+}
+
+i u{
+	color: blue
+}
+
+h1 { /*PARA A LOGO*/
+	background: #CCCCCC;
+	font-size: 35px;
+	font-weight: bold;
+	text-align: center
+}
+
+h2 { /* PARA TITULOS NA PAGINA */
+	color: #47525E;
+	font-size: 25px;
+	font-weight: bold;
+	margin: 55px 0 55px 65px;
+}
+
+h3 { /* PARA TITULOS DA NAVEGAÇÃO */
+	color: white;
+	font-weight: bold;
+	font-size: 25px;
+	text-shadow: 0px 6px 9px black;
+}
+
+h4{ /* PARA OS TITULOS DO SAIBA MAIS */
+	font-size: 35px;
+	font-weight: bold;
+	text-shadow: 0px 6px 9px black;
+	color: white;
+}
+
+h5{ /* PARA O SAIBA MAIS */
+	color: #2DD73C;
+	font-size: 17px;
+	font-weight: bold;
+	margin-top: 4%;
+}
+
+
+.titulo-centralizado{
+	text-align: center;
+	font-style: bold;
+}
+
+/* --- HEADER - BARRA DE NAVEGAÇÃO DO SITE---*/
+/* ----------------------------------------- */
+
+header {
+	background: #33C340;
+	width: 100%;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-style: 20px;
+	text-decoration: none;
+}
+
+/* -------- MAIN ----------------------------*/
+/* ----------------------------------------- */
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+section{
+	width: 940px;
+	position: relative;
+}
+
+.banner{
+	width: 100%;
+	opacity: 0.5;
+}
+
+.navegacao{
+	padding: 1% 0;
+	text-align: center;
+}
+
+/* -------- DEFINIÇÃO DOS ICONES DE NAVEGAÇÃO*/
+/* ----------------------------------------- */
+
+#menu{
+	margin-top: 6%;
+}
+
+.containerbackground{
+	z-index: 10;
+	position: relative;
+	padding-bottom: 60px;
+}
+
+.simbolos{
+	display: flex;
+}
+.simbolos li {
+	text-align: center;
+	width: 18%;
+	height: 220px;
+	margin: 0% 7.8%;
+	padding: 10px 5px;
+	box-sizing: border-box;
+	border-radius: 10px; 
+	background: #2DD73C;
+}
+
+.simbolos li:active { /* quando clicamos em um elemento */
+	border-color: #088C19;
+}
+
+.simbolos li:hover { /* quando o mouse passa sobre um elemento */
+	font-size: 1px;
+
+	transform: scale(1.07);
+	background: #66FF66;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.simbolos h3 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.simbolo-descricao {
+	font-size: 15px;
+	color: white;
+	text-align: center;
+	width: 100%;
+}
+
+.lupa {
+	margin: 10% 0%;
+}
+
+/* -------- LOCALIZAÇÃO ---------------------*/
+/* ----------------------------------------- */
+
+.containermapa{
+	display: inline-flex;
+	height: 270px;
+}
+
+.mapa{
+	box-shadow: -12px 12px 1px #2DD73C;
+	border-radius: 10px;
+	z-index: 10;
+	margin-left: 12%;
+	
+}
+
+.containermapa h3{ /* TITULOS DA LOCALIZAÇÃO */
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.bloco-texto{
+	background: #2DD73C;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 5% 5% 10% 12%;
+	height: 48%;
+
+}
+
+.bloco-texto p{
+	padding-top: 10px;
+}
+
+.planodefundo{
+	background: rgb(85, 228, 142, 0.7);
+	z-index: -1;
+	position: absolute;
+	width: 100%;
+	height: 85%;
+	bottom: 0;
+	right: 0;
+}
+
+
+/* ---------- LAZER E BLOCO SAIBA MAIS------*/
+/* ----------------------------------------- */
+
+
+/* -------FOTO MUSEU ---------*/
+
+.container-museu-cachoeira{
+	position: relative;
+	height: 950px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	gap: 10%;
+
+}
+
+.dimensao-museu3{
+	width: 71%;
+	height: 280px;
+	border-radius: 10px;
+	margin-left: 7%;
+}
+
+.museu3:hover {
+	transition: 1s all;
+	transform: scale(1.04);
+}
+
+
+.bloco-saber-mais{
+	box-sizing: border-box;
+	
+	background: #2DD73C;
+	border-radius: 10px;
+	padding: 1.5%;
+	text-align: center;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: ;
+	gap: 16%;
+	align-items: center;
+}
+
+
+
+.bloco-saber-mais:hover { /* quando o mouse passa sobre um elemento */
+	font-size: 1px;
+	border-color: #C78C19;
+	transform: scale(1.07);
+	background: #03BD03;
+	transition: 1s all;
+	cursor: pointer;
+	padding: 1%;
+}
+
+
+
+.absolute{
+	position: absolute;
+}
+
+#museu3{
+	top: 3px;
+	right: 117px;
+	width: 281px;
+	height: 170px;
+}
+/* ---------FOTO CACHOEIRA----- */
+
+
+.dimensao-cachoeira1{
+	width: 504px;
+	height: 300px;
+	border-radius: 10px;
+	margin-left: 37%;
+}
+
+#cachoeira1{
+	bottom: 30%;
+    left: 28%;
+    width: 281px;
+	height: 170px;
+}
+/* ---------GRUPO RESTAURANTE----- */
+
+.container-restaurantes{
+	height: 500px;
+	width: 800px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	position: relative;
+	align-items: center;
+
+}
+
+.dimensao-restaurante{
+	width: 277px;
+	height: 200px;
+}
+
+.dimensao-restaurante2{
+	width: 277px;
+	height: 200px;
+}
+
+.dimensao-restaurante3{
+	width: 277px;
+	height: 200px;
+}
+
+
+.planodefundo2{
+	background: rgb(56, 213, 192, 0.6);
+	z-index: -1;
+	position: absolute;
+	width: 940px;
+    height: 49%;
+    top: 97%;
+}
+
+
+
+/* ------- GRUPO HOSPEDAGEM -------- */
+
+/* -------------------------------------------BLOCO DA HOSPEDAGEM */
+
+.container-hospedagem{
+	width: 86%;
+	height: 500px;
+	margin-left: 8%;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+
+	position: relative;
+}
+
+.dimensao-hospedagem{
+	width: 330px;
+	height: 200px;
+}
+
+.dimensao-hospedagem2{
+	width: 330px;
+	height: 200px;
+	
+}
+
+.dimensao-hospedagem3{
+	width: 330px;
+	height: 200px;
+	
+}
+
+.bloco-clicavel-sabermais {
+	width: 300px;
+	height: 180px;
+	background: #2DD73C;
+
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 25%;
+	text-align: center;
+	align-items: center;
+
+	box-shadow: 0px 0px 46px #000;
+	border-radius: 10px;
+
+}
+
+.botao-sabermais{
+	width: 120px;
+}
+
+.planodefundo3{
+	width: 100%;
+    height: 65%;
+    background: rgb(178, 255, 102, 0.5);
+    position: absolute;
+    left: 0;
+    bottom: -40%;
+    z-index: -1;
+}
+
+
+/* -----------------------------------------------------------EFEITOS */
+
+.sombra-borda-direita{
+	border-radius: 10px;
+	box-shadow: 12px 12px 1px #2DD73C;
+}
+
+.sombra-borda-esquerda{
+	border-radius: 10px;
+	box-shadow: -12px 12px 1px #2DD73C;
+}
+
+.bloco-clicavel-sabermais:hover{
+	border-color: #C78C19;
+	transform: scale(1.07);
+	background: #03BD03;
+	transition: 1s all;
+	cursor: pointer;
+	padding: 1%;
+	border-radius: 10px;
+}
+
+h5:hover{
+	color: #00994C;
+	transition: 1s all;
+}
+/*------------------------------------------------------------------*/
+
+h5{
+	font-size: 17px;
+	font-weight: bold;
+	padding: 7% 0px;
+	background: white;
+	border-radius: 20px;
+	color: #2DD73C;
+}
+
+
+
+/*-----------------------------------------------------------------------*/
+
+
+
+
+/* -------- FOOTER --------------------------*/
+/* ----------------------------------------- */
+
+.footer{
+	background: linear-gradient(90deg, rgba(137,245,97,152) -24%, rgba(9,121,16,23) -8%, rgba(0,255,145,55) 117%);
+	width: 100%;
+	height: 200px;
+	position: relative;
+	margin-top: 13%;
+}
+
+.inscricao-peiropolis{
+	background: #00994C;
+	width: 40%;
+    height: 140px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: absolute;
+    right: 60px;
+    top: -47px;
+    padding: 2%;
+    box-sizing: border-box;
+    box-shadow: -19px 41px 42px #000;
+}
+.inscricao-peiropolis:after{
+	content: "";
+	width: 20px;
+	height: 48px;
+	right: 100%;
+	top: -1%;
+    
+    position: absolute;
+    z-index: 10;
+    
+    background: #66FF66;
+    clip-path: polygon(100% 0,100% 100%,0 100%);
+    
+}
+
+/* - DEFINIÇÕES PARA A PÁGINA DE CONTATO ----*/
+/* ----------------------------------------- */
+
+
+form {
+	margin: 40px 0;
+}
+
+form label, form legend {
+	display: block;
+	text-align: left;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 20px;
+	width: 50%
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width: 20%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all; /* Suavisa as transições: all(serve para tudo) */
+	cursor: pointer; /* Altera o ponteiro do mouse*/
+}
+
+.enviar:hover {
+	background: darkorange;
+	transform: scale(1.2); /* Transforma a escala do bloco em 20% */
+}
+
+/* ---------- DEFINIÇÕES DA PAGINA SOBRE ----*/
+/* ----------------------------------------- */
+
+.section-geossitio{
+	
+}
+.planodefundo1-sobre{
+	background: rgb(85, 228, 142, 0.5);
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 4%;
+    right: 0;
+}
+.planodefundo2-sobre{
+	background: rgb(85, 228, 142, 0.5);
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 39%;
+    top: 4%;
+    right: 0;
+}
+
+
+.geossitio{
+	width: 600px;
+	height: 300px;
+	margin: 7% 18%;
+	border-radius: 10px;
+	box-shadow: 0px 6px 64px 32px #2DD73C;
+}
+
+.main-sobre p{
+	line-height: 30px;
+	margin: 0 7%;
+}
+
+/* ---------- DEFINIÇÕES DA PAGINA CURIOSIDADES ----*/
+/* ------------------------------------------------ */
+
+.planodefundo1-curiosidades{
+	background: rgb(85, 228, 142, 0.5);
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 110%;
+    top: -10px;
+    right: 0;
+}
+
+.planodefundo2-curiosidades{
+	background: rgb(85, 228, 142, 0.5);
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 112%;
+    top: -10px;
+    right: 0;
+}
+
+#margin-esquerda{
+	margin: 0 5% 0 0;
+}
+
+.main-curiosidades p{
+	line-height: 30px;
+	margin: 0 0 0 5%;
+	width: 100%px;
+	background: #2DD73C;
+}
+
+
+.bloco-verde{
+	padding: 2%;
+}
+
+#origemnome{
+	margin-top: 9%;
+}
+
+.main-curiosidades ul{
+	display: flex;
+	flex-wrap: nowwrap;
+	border-radius: 10px;
+	margin: 0 7%;
+}
+
+.main-curiosidades li{
+	border-radius: 10px;
+}
+
+/* --------------------------IMAGENS---------*/
+.origemnome{
+	width: 320px;
+    height: 431px;
+    border-radius: 10px;
+    box-shadow: -12px 12px 1px #2DD73C;
+}
+
+.surgimentobairro{
+	width: 422px;
+    height: 274px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 56px green;
+}
+
+.descobertas{
+	width: 315px;
+    height: 427px;
+    border-radius: 10px;
+    box-shadow: -12px 12px 1px #2DD73C;
+}

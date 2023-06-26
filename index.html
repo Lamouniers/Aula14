@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+     <meta charset="UTF-8">
+     <title>Peiropolis</title>
+     <link rel="stylesheet" href="reset.css">
+     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Source+Code+Pro:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+     <!------------------------------------------ CABECALHO ----------------------------------------------------->
+     <header>
+          <div class="navegacao">
+               <nav>
+                    <ul>
+                         <li><a href="index.html">Peirópolis</a></li>
+                         <li><a href="index.html">Home</a></li>
+                         <li><a href="sobre.html">Sobre</a></li>
+                         <li><a href="curiosidades.html">Curiosidades</a></l>
+                         <li><a href="contato.html">Contato</a></li>
+                    </ul>
+               </nav>
+          </div>
+     </header>
+
+     <main>
+          <img class="banner" src="banner.png" alt="Banner com o dinossauro principal  de peirópolis">
+          
+     <div class="containerbackground">
+          <!----------------------------------------- MENU -------------------------------------------------->
+          <section id="menu">
+               <ul class="simbolos">
+                         <li>
+                              <a href="#lazer">
+                              <img src="parque.png" width="53%" height="50%">
+                              <h3>Lazer</h3>
+                              <p class="simbolo-descricao">Descubra pontos turísticos e atividades disponíveis</p>
+                              </a>
+                         </li>                    
+                    <li>
+                         <a href="#hospedagem">
+                              <img src="hotel.png" width="53%" height="50%">
+                              <h3>Hospedagem</h3>
+                              <p class="simbolo-descricao">Veja os locais onde se hospedar com sua família</p>
+                         </a>
+                    </li>
+                    <li>
+                         <div class="lupa">
+                              <img src="lupa.png" width="43%" height="43%">
+                         </div>
+                         <h3>Horários</h3>
+                         <p class="simbolo-descricao">Confira os horários de funcionamento</p>
+                    </li>
+               </ul>
+          </section>
+          <!---------------------------------------- LOCALIZACAO ------------------------------------------------>
+          <section>
+               <h2>Localização</h2>
+               <div class="containermapa">
+                    <div>
+                         <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1877.6355158778802!2d-47.744270091911105!3d-19.74363619667711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bab81dc9635773%3A0x1a2a6e2d2635308a!2sPeir%C3%B3polis%2C%20Uberaba%20-%20MG!5e0!3m2!1spt-BR!2sbr!4v1686686724607!5m2!1spt-BR!2sbr" width="550" height="270" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="bloco-texto">
+                         <h3>Nos visite</h3>
+                         <p>Peirópolis é um bairro rural de Uberaba, localizado às margens da rodovia BR-262, a 20 km do centro da cidade.</p>
+                    </div> 
+               </div> 
+          </section>
+
+          <div class="planodefundo"></div>
+     </div>
+          <!--------------------------------------------- LAZER -------------------------------------------------->
+          <section id="lazer">
+                    <h2>Lazer:</h2>
+                                                            <!-- MUSEU -->
+                    <div class="container-museu-cachoeira">
+                         <img class="dimensao-museu3 sombra-borda-esquerda" src="museu3.jpg" alt="Foto de dentro do museu de peirópolis">
+                         <div class="bloco-saber-mais absolute" id="museu3">
+                              <h4>Museu dos Dinossauros</h4>
+                              <div class="botao-sabermais"> <a href="sabermais.html"> <h5>Saber mais</h5> </a> </div>
+                         </div>
+                                                            <!-- CACHOEIRA -->
+
+                         <img class="dimensao-cachoeira1 sombra-borda-direita" src="cachoeira1.jpg" alt="Foto de uma cahoeira de peiropolis">
+                         <div class="bloco-saber-mais absolute" id="cachoeira1">
+                              <h4>Cachoeira de Peiropolis</h4>
+                              <div class="botao-sabermais"> <a href="sabermais.html"> <h5>Saber mais</h5> </a> </div>
+                         </div>
+                         <div class="planodefundo2"></div>
+                    </div>
+                                                            <!-- BLOCO RESTAURANTE -->
+                    <div class="container-restaurantes">
+                         <img  class="dimensao-restaurante2 sombra-borda-esquerda" src="restaurante2.jpg" alt="Foto de um restaurante"> 
+
+                         <div class="bloco-clicavel-sabermais">
+                              <h4>Restaurantes</h4>
+                              <div class="botao-sabermais"> <a href="sabermais.html"> <h5>Saber mais</h5> </a> </div>
+                         </div>
+
+                         <img class="dimensao-restaurante sombra-borda-esquerda" src="restaurante.png" alt="Foto de comida"> 
+                         <img class="dimensao-restaurante3 sombra-borda-esquerda" src="restaurante3.jpg" alt="Foto de comida"> 
+                    </div>
+          </section>
+          <!-------------------------------------------- HOSPEDAGEM --------------------------------------------------->
+          <section id="hospedagem">
+                   <h2>Hospedagem:</h2> 
+                    <div class="container-hospedagem">
+                         <img class="dimensao-hospedagem sombra-borda-direita" src="hospedagem.png" alt="Foto de ua pousada com árvore na frente">
+                         <img class="dimensao-hospedagem2 sombra-borda-direita" src="hospedagem2.png" alt="Foto de dentro da pousada">
+
+                         <div class="bloco-clicavel-sabermais">
+                              <h4>Hospedagem</h4>
+                              <div class="botao-sabermais"> <a href="sabermais.html"> <h5>Saber mais</h5> </a> </div>
+                         </div>
+
+                         <img class="dimensao-hospedagem3 sombra-borda-direita" src="hospedagem3.png" alt="Foto de fora da pousada">
+                    </div>
+               <div class="planodefundo3"></div>
+          </section>
+     </main>
+     <!----------------------------------------------------- RODAPE ----------------------------------------------------->
+     <footer>
+          <div class="footer">
+               <div class="inscricao-peiropolis"><h4>Mantenha-se atualizado sobre o que acontece em peirópolis</h4></div>
+              <p>rodape</p> 
+          </div>
+     </footer>
+     
+</body>
+</html>
